@@ -1,0 +1,20 @@
+{
+  "name": "first-node-project",
+  "version": "1.0.0",
+  "description": "\"This is my first project\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "Glo": "echo 'Hola, Glo'"
+  },
+  "keywords": [
+    "node",
+    "firstProject",
+    "etc"
+  ],
+  "author": "GloSuaCas",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
