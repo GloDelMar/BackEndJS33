@@ -1,0 +1,11 @@
+{
+  "name": "loskoders",
+  "version": "1.0.0",
+  "description": "\"Una lista de los koders más pro\"",
+  "main": "koders.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GloSuárez",
+  "license": "ISC"
+}
