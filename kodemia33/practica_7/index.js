@@ -52,11 +52,11 @@ server.delete("/koders/:indice", (request, response)=>{
         });
         return;
     }
-    const deletedKoder = kodersData.koders.splice(indexToDelete, 1);
+    const deletedKoder = kodersData.koders.splice(indexToDelete, 1)[0]
     fs.writeFileSync(BaseDatosKoders, JSON.stringify(kodersData))
     
     response.json({
-        message: `Koder eliminado correctamente: ${deletedKoder}`,
+        message: `Koder eliminado correctamente: ${deletedKoder.name}`,
     })
 })
 
